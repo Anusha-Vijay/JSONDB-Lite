@@ -1,0 +1,6 @@
+add {"id":1,"last":"Doe","first":"John","location":{"city":"Oakland","state":"CA","postalCode":"94607"},"active":true}
+add {"id":2,"last":"Doe","first":"Jane","location":{"city":"San Francisco","state":"CA","postalCode":"94105"},"active":true}
+add {"id":3,"last":"Kim","first":"Jim","location":{"city":"Spokane","state":"WA","postalCode":"99207","address":{"street":"verde", "apt":"apt212"},"active":true}
+add {"id":4,"last":"Frost","first":"Jack","location":{"city":"Seattle","state":"WA","postalCode":"98204", "address":{"street":"verde", "apt":"apt210"}},"active":false}
+add {"id":5,"last":"Frost","first":"Joe","location":{"city":"San Jose","state":"CA","postalCode":"98204", "address":{"street":"verde", "apt":"apt212"}},"active":false}
+get {"address":{"apt":"apt210","street":"verde"}}
